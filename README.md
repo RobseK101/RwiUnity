@@ -5,8 +5,10 @@ The actual "heart" of this code are the static RwiDll class, which implements th
 which exposes this interface in a manner more compatible with the managed C#/Unity world.
 
 The WorldManager script can be thought of as a quick template script to get the loader running with *something*. 
-You *will* have to modify it to get it running yourself as I do not supply any game data and some of the filepaths 
-that it uses are not publicly exposed. At this point I do not see this as a problem, though, as it is very much an 
+Note that since the creation of the below screenshots two string array fields have been added in the inspector 
+that allow you to specify a) the archives to be loaded into RWImport's virtual filesystem and b) the individual files 
+to be included in RWImport's virtual filesystem. The only files visible to RWImport *are those* in the virtual filesystem. 
+This script is very much an 
 experimental proof of concept to show that the DLL and the managed/native interface are actually working as intended. 
 
 # Showcase
