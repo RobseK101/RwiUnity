@@ -6,7 +6,7 @@ which implements methods that turn the marshalled data into actually usable Unit
 
 The WorldManager script can be thought of as a quick template script to get the loader running with *something*. 
 You *will* have to modify to get it running yourself as I do not supply any game data and some of the filepaths 
-that it uses are not publicly exposed. At this point I do not see this as a problem though as it is very much an 
+that it uses are not publicly exposed. At this point I do not see this as a problem, though, as it is very much an 
 experimental proof of concept to show that the DLL and the managed/native interface are actually working as intended. 
 
 # Showcase
