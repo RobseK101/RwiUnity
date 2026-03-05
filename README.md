@@ -26,12 +26,12 @@ These are some screenshots from within the Unity Editor that show a paused game 
 
 - Instantiation from an Instantiation Tree creates a full per object scene graph that can be requested trimmed (i.e empty nodes removed).
   In this particular case, the loaded model only has one mesh. Each mesh is instantiated as a game object containing a mesh filter and a mesh
-  renderer. 
+  renderer:
   ![Image 1](images/DFF_object_mesh_marked.png)
 
 - Because Unity's collider system is somewhat different from GTA's, each collider primitive (boxes and spheres) is instantiated as its own
   child GameObject as well as one mesh collider per collision material in its own child GameObject since Unity does not support mesh
-  colliders that have more than one physics material.
+  colliders that have more than one physics material:
   ![Image 2](images/DFF_object_collision_marked.png)
 
 
