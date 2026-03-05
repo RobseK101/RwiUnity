@@ -9,6 +9,8 @@ You *will* have to modify to get it running yourself as I do not supply any game
 that it uses are not publicly exposed. At this point I do not see this as a problem though as it is very much an 
 experimental proof of concept to show that the DLL and the managed/native interface are actually working as intended. 
 
+These are some screenshots from within the Unity Editor that show a paused game loop after an object has been loaded:
+
 ![Image 1](images/DFF_object_mesh_marked.png)
 ![Image 2](images/DFF_object_collision_marked.png)
 ![Image 3](images/DFF_object_scene_graph_marked.png)
